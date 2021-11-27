@@ -19,7 +19,6 @@ function secondVariable(a, b) {
 /* ================================================================================================== */
 
 let clockDiv = document.getElementById("clock")
-
 let btn = document.getElementById("button")
 
 function clock() {
@@ -29,8 +28,6 @@ function clock() {
     let hour = (date.getHours() < 10) ? '0' + date.getHours() : date.getHours();
     let minute = (date.getMinutes() < 10) ? '0' + date.getMinutes() : date.getMinutes();
     let sec = (date.getSeconds() < 10) ? '0' + date.getSeconds() : date.getSeconds();
-   
-    
    
     clockDiv.innerHTML = `${hour}:${minute}` + `<span>:${sec}</span> `;
 }
