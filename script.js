@@ -45,6 +45,6 @@ function clock() {
    
 
     }
-    setInterval(clock, 250)
+    setInterval(clock, 750)
 
 
