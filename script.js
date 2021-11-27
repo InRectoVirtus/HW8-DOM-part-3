@@ -33,7 +33,7 @@ function clock() {
     
    
     clockDiv.innerHTML = `${hour}:${minute}` + `<span>:${sec}</span> `;
-
+}
     btn.addEventListener('click', (e) => {
         let target = e.target
         if (target !== clockDiv) {
@@ -44,7 +44,7 @@ function clock() {
     const toggleSeconds = (elem) => elem.classList.toggle("off")
    
 
-    }
-    setInterval(clock, 750)
+    
+    setInterval(clock, 250)
 
 
